@@ -1,1 +1,54 @@
 @charset "utf-8";
+
+/*
+ * Base
+ */
+ 
+html {
+  /*color: ; pas choisi pour le moment :)*/
+  font-size: 1em;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::selection {
+    /*background: ; pas choisi pour le moment :)*/
+    text-shadow: none;
+}
+
+/*audio,
+canvas,
+iframe,
+img,
+svg,
+video*/
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
