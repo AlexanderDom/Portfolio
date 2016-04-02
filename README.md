@@ -17,3 +17,8 @@ Mon site personnel, qui me servira aussi de bac à sable.
 1. [ ] Réflechir au contenu
 2. [ ] Faire les wireframes
 3. [ ] ...
+
+Test de tableau | Encore
+--------------- | ------
+Lor | Em
+Ip | Sum
